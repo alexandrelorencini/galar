@@ -1,0 +1,25 @@
+{
+  "name": "galar",
+  "version": "1.0.0",
+  "description": "O Galar será responsavel por obter e converter informações para a API KVASIR.",
+  "main": "Main.js",
+  "scripts": {
+    "start": "node src/Main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandrelorencini/galar.git"
+  },
+  "author": "Alexandre Lorencini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexandrelorencini/galar/issues"
+  },
+  "homepage": "https://github.com/alexandrelorencini/galar#readme",
+  "dependencies": {
+    "db": "^1.1.1",
+    "fs": "0.0.1-security",
+    "nodemon": "^1.18.9"
+  }
+}
