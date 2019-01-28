@@ -23,9 +23,9 @@ Atualmente ele obtém os dados de teste que são executados e fornecidos pelo NE
     "conditions": [{
             "metric": "critical_path",
             "op": "LT",
-            "warning": 1",
-            "error": "1",
-            "actual": "90",
+            "warning": 1,
+            "error": 1,
+            "actual": 90,
             "level": "ERROR"
         }
     ]
