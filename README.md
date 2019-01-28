@@ -15,7 +15,7 @@
 *   actual > Número de testes com erro
 *   level > Status do teste (ERROR || WARN || OK)
 
-### Exemplo da estruturação do objeto:
+#### Exemplo da estruturação do objeto:
 
 {
     "projectName": "accounts",
@@ -30,6 +30,17 @@
     ]
 }
 
+
 #### Link do projeto Kvasir:
 
 https://github.com/thiago-pessini/Kvasir
+
+
+
+#### historical changes:
+
+| Version 	| Description                           	| Last Update 	| author              	|
+|---------	|---------------------------------------	|-------------	|---------------------	|
+| 0.1     	| Start Project                         	| 2019-01-21  	| Alexandre Lorencini 	|
+| 1.0     	| Release of the first version of Galar 	| 2019-01-28  	| Alexandre Lorencini 	|
+|         	|                                       	|             	|                     	|
