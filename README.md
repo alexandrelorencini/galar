@@ -6,14 +6,16 @@
 
 ### Dados a serem sincronizados entre Galar e Kvasir:
 
-*   projectName > Nome do projeto
-*   condictions > Conjunto de valores extraídos do report gerado pelos testes junto ao NEWMAN.
-*   metric > Especifica o tipo de teste de back-end que está sendo executado no momento
-*   op > Operação do SonarQube
-*   warning > Nível de testes mínimo a ser considerado como Warning
-*   error > Indicador de valor mínimo aceitável para o status de erro
-*   actual > Número de testes com erro
-*   level > Status do teste (ERROR || WARN || OK)
+| Field       	| Description                                                                 	|
+|-------------	|-----------------------------------------------------------------------------	|
+| projectName 	| Nome do projeto                                                             	|
+| condictions 	| Conjunto de valores extraídos do report gerado pelos testes junto ao NEWMAN 	|
+| metric      	| Tipo de teste de back-end que está sendo executado no momento               	|
+| op          	| Operação do SonarQube                                                       	|
+| warning     	| Nível de testes mínimo a ser considerado como Warning                       	|
+| error       	| Indicador de valor mínimo aceitável para o status de erro                   	|
+| actual      	| Número de testes com erro                                                   	|
+| level       	| Status do teste (ERROR || WARN || OK)                                         |
 
 #### Exemplo da estruturação do objeto:
 
