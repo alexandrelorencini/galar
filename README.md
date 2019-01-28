@@ -4,7 +4,7 @@
     Atualmente ele obtém os dados de teste que são executados e fornecidos pelo NEWMAN em um diretório específico, que também pode ser parametrizado. Desta forma o Galar busca o ultimo report de testes executado e transforma os dados em um objeto.
     Esse objeto é enviado por meio de uma requisição 'POST' até a API do KVASIR, para que o dado seja persistido em banco.
 
-### Dados a serem sincronizados entre Galar e Kvasir
+### Dados a serem sincronizados entre Galar e Kvasir:
 
 *   projectName > Nome do projeto
 *   condictions > Conjunto de valores extraídos do report gerado pelos testes junto ao NEWMAN.
@@ -37,7 +37,7 @@ https://github.com/thiago-pessini/Kvasir
 
 
 
-#### historical changes:
+#### Historical changes:
 
 | Version 	| Description                           	| Last Update 	| author              	|
 |---------	|---------------------------------------	|-------------	|---------------------	|
