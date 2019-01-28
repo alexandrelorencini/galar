@@ -1,7 +1,7 @@
 # Galar
 
 O Galar é uma API responsavel por obter e enviar reports de status de execução de testes de back-end para a API KVASIR.
-Atualmente ele obtém os dados de teste que são executados e fornecidos pelo NEWMAN em um diretório específico, que também pode ser parametrizado. Desta forma o Galar busca o ultimo report de testes executado e transforma os dados em um objeto. Esse objeto é enviado por meio de uma requisição 'POST' até a API do KVASIR, para que o dado seja persistido em banco.
+Atualmente ele obtém os dados de teste que são executados e fornecidos pelo NEWMAN em um diretório específico, que também pode ser parametrizado. Desta forma o Galar busca o ultimo report de testes executado e transforma os dados em um objeto. Esse objeto é enviado por meio de uma requisição 'POST' até a API do KVASIR, para que o dado seja persistido em banco e posteriormente exibido em um dashboard com dados de teste consolidados.
 
 ### Dados a serem sincronizados entre Galar e Kvasir:
 
