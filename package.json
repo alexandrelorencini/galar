@@ -20,6 +20,7 @@
   "dependencies": {
     "db": "^1.1.1",
     "fs": "0.0.1-security",
-    "nodemon": "^1.18.9"
+    "nodemon": "^1.18.9",
+    "request": "^2.88.0"
   }
 }
