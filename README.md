@@ -37,18 +37,19 @@ Atualmente ele obtém os dados de teste que são executados e fornecidos pelo NE
 https://github.com/thiago-pessini/Kvasir
 
 
-#### Instalação:
+#### Instalação e configuração:
 ```sh
 $ cd galar
 $ npm install
+$ configurar variáveis de integração no arquivo Main.js (REPORT_PATH , PROJECT , METRIC , KVASIR_ADDRESS)
 $ npm start
 ```
 
 
 #### Historical changes:
 
-| Version 	| Description                           	| Last Update 	| author              	|
+| Version 	| Description                           	| Last Update 	| Author              	|
 |---------	|---------------------------------------	|-------------	|---------------------	|
-| 0.1     	| Start Project                         	| 2019-01-21  	| Alexandre Lorencini 	|
-| 1.0     	| Release of the first version of Galar 	| 2019-01-28  	| Alexandre Lorencini 	|
-|         	|                                       	|             	|                     	|
+| 0.01     	| Start Project                         	| 2019-01-21  	| Alexandre Lorencini 	|
+| 1.00     	| Release of the first version of Galar 	| 2019-01-28  	| Alexandre Lorencini 	|
+| 1.01     	| Galar V1 documentation settings          	| 2019-01-28  	| Alexandre Lorencini 	|
